@@ -33,9 +33,9 @@
                 $cat_id = $cat['cat_id'];
         ?>
         <div class=" p-5 gap-2 flex flex-col">
-            <div class="flex">
+            <!-- <div class="flex">
                 <h2 class="text-2xl px-2 font-semibold text-teal-900 underline"><?= $cat['cat_title'];?></h2>
-            </div>
+            </div> -->
             <div class="flex flex-nowrap w-[100%] overflow-x-scroll gap-3 p-5 rounded-md bg-[#D8FEF1]">
                 <?php
                     if(isset($_GET['filter'])){
